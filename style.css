@@ -1,0 +1,92 @@
+@media (max-width: 991.98px) {
+  .card-intro {
+    margin: 0 auto 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin: 0 auto 0 auto;
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+.card {
+  max-width: 400px;
+  border-radius: 0%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.card-img {
+  border-radius: 0%;
+}
+
+#banner {
+  background-color: #fbf1e8;
+}
+
+nav {
+  background-color: #fbf1e8;
+}
+
+#Academic,
+#Proyects,
+footer {
+  background-color: #213f84;
+  color: white;
+}
+
+#Academic .list-group-item,
+#Proyects .list-group-item,
+footer .list-group-item {
+  background-color: #213f84;
+}
+
+#Academic h2,
+#Academic h3,
+#Academic h4,
+#Academic h5,
+#Proyects h2,
+#Proyects h3,
+#Proyects h4,
+#Proyects h5,
+footer h2,
+footer h3,
+footer h4,
+footer h5 {
+  color: #c3a97e;
+}
+
+#Academic a,
+#Proyects a,
+footer a {
+  color: #add8e7;
+}
+
+#Academic a:hover,
+#Proyects a:hover,
+footer a:hover {
+  color: #73909b;
+}
+
+footer h2 {
+  color: #add8e7;
+}
+
+footer p {
+  text-align: center;
+}
+
+#Interests {
+  background-color: #fbf1e8;
+}
+
+.music-frames {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

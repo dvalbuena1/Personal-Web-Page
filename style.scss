@@ -1,0 +1,78 @@
+@media (max-width: 991.98px) {
+  .card-intro {
+    margin: 0 auto 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav {
+    margin: 0 auto 0 auto;
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+.card {
+  max-width: 400px;
+  border-radius: 0%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.card-img {
+  border-radius: 0%;
+}
+
+#banner {
+  background-color: #fbf1e8;
+}
+
+nav {
+  background-color: #fbf1e8;
+}
+
+#Academic,
+#Proyects,
+footer {
+  background-color: #213f84;
+  color: white;
+
+  .list-group-item {
+    background-color: #213f84;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: #c3a97e;
+  }
+
+  a {
+    color: #add8e7;
+  }
+  a:hover {
+    color: rgb(115, 144, 155);
+  }
+}
+
+footer {
+  h2 {
+    color: #add8e7;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+#Interests {
+  background-color: #fbf1e8;
+}
+
+.music-frames {
+  display: block;
+  margin: 0 auto 0 auto;
+}
