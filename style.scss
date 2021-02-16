@@ -4,6 +4,8 @@
   }
 }
 
+/* Tienes muchos colores, puedes considerar usar variables de sass para no repetir tanto */
+
 @media (min-width: 992px) {
   .navbar-nav {
     margin: 0 auto 0 auto;
@@ -28,6 +30,11 @@ p {
 #banner {
   background-color: #fbf1e8;
 }
+
+/* img {
+  height: 24px
+}*/
+/* Esto puede solucionar lo de tener que ponerlo en cada imagen*/
 
 nav {
   background-color: #fbf1e8;
