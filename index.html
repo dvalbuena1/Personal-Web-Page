@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<!--La validación de código arrojó más de 20 errores, principalmente por falta de atributos en el meta, ids repetidos o el uso de iframe.
+La página desperdicia mucho espacio en los laterales y entre elementos cuando se muestra en dispositivos grandes.
+Haría la navbar fixed y añadiría hover a los elementos para facilitar la navegación entre secciones.
+HTML y CSS bien organizados y con buen nombramiento.
+Buen diseño para pantallas pequeñas/medianas.
+La combinación de colores es buena.-->
+  <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -26,7 +32,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light  fixed-top ">
         <div class="container-fluid">
           <button
             class="navbar-toggler"
@@ -48,7 +54,7 @@
                 <a class="nav-link" href="#Interests">Interests</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Proyects">Proyects</a>
+                <a class="nav-link" href="#Projects">Projects</a>
               </li>
             </ul>
           </div>
@@ -76,7 +82,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 top-spacing">
             <div class="card card-intro" style="height: 100%">
               <div class="card-body">
                 <div class="container p-0" style="height: 100%">
@@ -460,10 +466,10 @@
         </div>
       </section>
 
-      <section id="Proyects">
+      <section id="Projects">
         <div class="container pt-3 pb-3">
           <div class="row p-3">
-            <h2>Proyects</h2>
+            <h2>Projects</h2>
             <hr />
             <div class="container">
               <div class="row">
@@ -514,7 +520,7 @@
           <h2>Contact Me</h2>
         </div>
         <div class="row text-center p-4">
-          <dic class="col-0 col-md-2"></dic>
+          <div class="col-0 col-md-2"></div>
           <div class="col">
             <a href="mailto:d.valbuena@uniandes.edu.co">
               <img src="static/Mail-white.svg" height="24px" alt="Correo" />
