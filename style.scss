@@ -25,6 +25,17 @@ p {
   border-radius: 0%;
 }
 
+.container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.social-media {
+  padding: 1rem 0;
+}
+
 #banner {
   background-color: #fbf1e8;
 }
